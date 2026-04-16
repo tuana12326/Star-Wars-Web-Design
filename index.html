@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Star Wars — GÜCÜ KULLAN… FAREYİ BASILI TUTARAK IŞIN KILICINI ÇİZ VE FİLM BİLGİSİ ÖĞREN!</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div id="starfield"></div>
+  <canvas id="lsCanvas"></canvas>
+
+  <div id="cursor">
+    <svg width="30" height="30" viewBox="0 0 30 30">
+      <circle id="cc" cx="15" cy="15" r="5" fill="none" stroke="#ffd700" stroke-width="1.8"/>
+      <line id="ct" x1="15" y1="0"  x2="15" y2="8"  stroke="#ffd700" stroke-width="1.2"/>
+      <line id="cb" x1="15" y1="22" x2="15" y2="30" stroke="#ffd700" stroke-width="1.2"/>
+      <line id="cl" x1="0"  y1="15" x2="8"  y2="15" stroke="#ffd700" stroke-width="1.2"/>
+      <line id="cr" x1="22" y1="15" x2="30" y2="15" stroke="#ffd700" stroke-width="1.2"/>
+    </svg>
+  </div>
+
+  <div id="factCard">
+    <div class="ft" id="factTitle"></div>
+    <div id="factText"></div>
+    <div class="fc">Tıkla · Kapat</div>
+  </div>
+
+  <div id="center">
+    <div id="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg" alt="Star Wars" class="main-logo">
+    </div>
+    <div id="instruction">
+      <div id="drawText">◈ GÜCÜ KULLAN… ÇİZ VE FİLM BİLGİSİ ÖĞREN! ◈</div>
+      <div id="subText">Fare butonuna basılı tut + hareket ettir</div>
+    </div>
+  </div>
+
+  <div id="footer">◆ Güç seninle olsun ◆</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
